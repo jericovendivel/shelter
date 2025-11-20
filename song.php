@@ -8,7 +8,8 @@ $verbs = ['find', 'tell', 'noticed', 'left'];
 $adjectives = ['right', 'whole', 'long', 'alone', 'older'];
 
 $verseCount = 2;
-$repeatChorus = 2;
+$repeatChorus = 3;
+$totalSection = $verseCount + $repeatChorus;
 
 $verse1 = [
     "I could never  the right way to tell you",
@@ -100,6 +101,7 @@ $typejuggling2 = (int)"Number 1" * 2;
             <h3>Mood: <?=$mood?></h3>
             <h3>Verse Count = <?=$verseCount?></h3>
             <h3>Chorus Repeat = <?=$repeatChorus?></h3>
+            <h3>Total Sections = <?=$totalSection?></h3>
             <hr>
 
             <!-- Verse 1 -->
